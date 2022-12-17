@@ -106,7 +106,7 @@ function Store() {
 
   return (
     <div className="store">
-      <h1>All users</h1>
+      <h1>All Users</h1>
       {errorMes && <h2>{errorMes}</h2>}
 
       {isLoading && <h1 className="spinner">Spinner</h1>}

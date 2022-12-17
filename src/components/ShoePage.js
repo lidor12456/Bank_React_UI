@@ -1,10 +1,11 @@
 import React, { useState, useEffect, useReducer } from "react";
-import { Routes, Route, Link, useParams } from "react-router-dom";
+import { Routes, Route, Link, useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 import styles from "./ShoePage.css";
 import bg from "./images/bg.jpg";
 
 function ShoePage() {
+  const navigate = useNavigate();
   const [shoeArr, setShoeArr] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [errorMes, setErrorMes] = useState(null);
@@ -109,8 +110,9 @@ function ShoePage() {
                       <p> Credit - {credit}</p>
                       <br></br>
                       <button
-                        onClick={() => {
-                          handleDelete(_id);
+                        onClick={async () => {
+                          await handleDelete(_id);
+                          navigate("/store");
                         }}
                       >
                         Delete
