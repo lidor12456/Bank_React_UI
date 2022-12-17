@@ -1,0 +1,85 @@
+h2 {
+    text-align: center;
+    color:  rgb(0, 0, 0);
+    margin-bottom: 5%;
+    padding: 5%;
+    font-weight: bold;
+}
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    gap: 12px;
+    
+}
+.inputs input {
+    padding: 5px;
+    text-align: center;
+    background-color: transparent;
+    color:  rgb(0, 0, 0);
+    font-weight: bold;
+}
+.inputs input::placeholder {
+    color:  rgb(0, 0, 0);
+    font-weight: bold;
+
+}
+.inputs button {
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+	/* background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%); */
+    background-color: transparent;
+	background-color:transparent;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color: rgb(0, 0, 0);
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+}
+
+
+
+.add-shoe {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: url("./images/bg.jpg") center top;
+    background-size: 80%;
+    height: 90vh;
+
+}
+.add-shoe  h1 {
+    text-align: center;
+    padding: 2%;
+    color: rgb(0, 0, 0);
+}
+.shoe-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.shoe{
+    width:25%;
+    height: 1%;
+    border: 1px solid  rgb(0, 0, 0);
+
+    text-align: center;
+    margin: 3%;
+    padding: 2%;
+
+}
+.shoe-info {
+font-size: 20px;
+color: rgb(0, 0, 0);
+
+
+}
+.shoe-info p {
+    margin: 5px;
+   
+}
+.shoe-info a {
+    text-decoration: none;
+}

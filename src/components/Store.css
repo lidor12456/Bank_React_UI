@@ -1,0 +1,46 @@
+.store {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: url("./images/bg.jpg") center bottom ;
+    /* background-size: 80%; */
+    height: 100vh;
+
+
+}
+.store h1 {
+    text-align: center;
+    padding: 2%;
+    color: rgb(0, 0, 0);
+}
+.shoe-container {
+    display: flex;
+    flex-wrap: wrap;
+    background: url("./images/bg.jpg") center top repeat;
+    background-size: 80%;
+    
+    
+}
+.shoe{
+    width:25%;
+    height: 1%;
+    border: 1px solid rgb(0, 0, 0);
+
+    text-align: center;
+    margin: 3%;
+    padding: 2%;
+
+}
+.shoe-info {
+    
+font-size: 20px;
+color: rgb(0, 0, 0);
+
+}
+.shoe-info p {
+    margin: 5px;
+    background-color: rgba(250, 134, 231, 0.468);
+    color: rgb(0, 0, 0);
+
+}
+.shoe-info a {
+    text-decoration: none;
+}

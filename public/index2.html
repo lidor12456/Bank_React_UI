@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <!-- Navigation -->
+        <div class="navigation">
+          <!-- Hamburger -->
+          <button class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </button>
+
+          <!-- Brand -->
+          <div class="branding">
+            <a href="/">
+              <svg
+                width="71"
+                height="21"
+                viewBox="0 0 71 21"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.45 1.02V5.34C10.83 4.4 9.15 3.93 7.41 3.93C6.63 3.93 6.03 4.09 5.61 4.41C5.21 4.73 5.01 5.14 5.01 5.64C5.01 6.14 5.26 6.59 5.76 6.99C6.26 7.37 7.01 7.78 8.01 8.22C8.63 8.5 9.14 8.75 9.54 8.97C9.96 9.17 10.43 9.46 10.95 9.84C11.49 10.2 11.91 10.59 12.21 11.01C12.53 11.41 12.8 11.91 13.02 12.51C13.24 13.11 13.35 13.76 13.35 14.46C13.35 16.28 12.68 17.76 11.34 18.9C10 20.02 8.22 20.58 6 20.58C3.62 20.58 1.68 20.16 0.18 19.32V14.67C2 15.99 3.94 16.65 6 16.65C6.7 16.65 7.28 16.47 7.74 16.11C8.2 15.73 8.43 15.24 8.43 14.64C8.43 14.44 8.4 14.25 8.34 14.07C8.28 13.89 8.17 13.72 8.01 13.56C7.85 13.4 7.69 13.27 7.53 13.17C7.39 13.05 7.17 12.92 6.87 12.78C6.59 12.62 6.35 12.49 6.15 12.39C5.95 12.29 5.65 12.15 5.25 11.97C4.87 11.79 4.56 11.65 4.32 11.55C3.02 10.95 1.97 10.21 1.17 9.33C0.39 8.45 0 7.28 0 5.82C0 4.08 0.64 2.68 1.92 1.62C3.2 0.54 4.97 0 7.23 0C9.25 0 10.99 0.34 12.45 1.02Z"
+                  fill="white"
+                />
+                <path
+                  d="M20.8402 16.65H25.83L28.7602 20.34H16.1902V0.12H25.83L28.6402 3.81H20.8402V8.4H25.83L27.8002 12.06H20.8402V16.65Z"
+                  fill="white"
+                />
+                <path
+                  d="M38.4185 12.48H43.2785L43.0685 11.76C42.4885 9.8 42.0085 8.13 41.6285 6.75C41.2685 5.37 41.0485 4.48 40.9685 4.08L40.8485 3.48C40.6885 4.58 39.9485 7.34 38.6285 11.76L38.4185 12.48ZM45.6185 20.34L44.3885 16.2H37.3085L36.0785 20.34H31.2485L37.9985 0.12H43.8185L50.5685 20.34H45.6185Z"
+                  fill="white"
+                />
+                <path
+                  d="M53.2214 20.34V0.12H58.2914L63.0014 8.49C63.6614 9.67 64.2314 10.78 64.7114 11.82C65.2114 12.84 65.5314 13.56 65.6714 13.98L65.9114 14.64C65.7114 13.16 65.6114 11.11 65.6114 8.49V0.12H70.2314V20.34H65.1614L60.3314 11.97C59.6914 10.89 59.1214 9.83 58.6214 8.79C58.1414 7.73 57.8114 6.95 57.6314 6.45L57.3914 5.7C57.6914 7.5 57.8414 9.59 57.8414 11.97V20.34H53.2214Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+          </div>
+
+          <!-- Menu Right -->
+          <div class="menu-right">
+            <div class="menu-icons">
+              <a href="#" class="menu-link">
+                <svg
+                  width="37"
+                  height="35"
+                  viewBox="0 0 37 35"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M27 13.5C27 16.1669 26.2267 18.6531 24.8921 20.7468L36.1468 30.6774C36.9751 31.4082 37.0541 32.6721 36.3232 33.5003C35.5924 34.3286 34.3286 34.4076 33.5003 33.6768L22.2677 23.7657C19.9089 25.7822 16.8467 27 13.5 27C6.04416 27 0 20.9558 0 13.5C0 6.04416 6.04416 0 13.5 0C20.9558 0 27 6.04416 27 13.5ZM13.5 23C18.7467 23 23 18.7467 23 13.5C23 8.25329 18.7467 4 13.5 4C8.25329 4 4 8.25329 4 13.5C4 18.7467 8.25329 23 13.5 23Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+
+              <a href="#" class="menu-link">
+                <svg
+                  width="30"
+                  height="44"
+                  viewBox="0 0 30 44"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="14.9999" cy="5.23256" r="5.23256" fill="white" />
+                  <mask
+                    id="mask0"
+                    mask-type="alpha"
+                    maskUnits="userSpaceOnUse"
+                    x="0"
+                    y="13"
+                    width="30"
+                    height="31"
+                  >
+                    <circle cx="15" cy="28.9535" r="15" fill="white" />
+                  </mask>
+                  <g mask="url(#mask0)">
+                    <circle
+                      cx="14.7907"
+                      cy="13.7907"
+                      r="17.7907"
+                      fill="white"
+                    />
+                  </g>
+                </svg>
+              </a>
+
+              <a href="#" class="menu-link">
+                <svg
+                  width="28"
+                  height="34"
+                  viewBox="0 0 28 34"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M6.67378 8C6.66905 7.88948 6.66667 7.77835 6.66667 7.66667C6.66667 3.43248 10.0991 0 14.3333 0C18.5675 0 22 3.43248 22 7.66667C22 7.77835 21.9976 7.88948 21.9929 8H28V23.3333C28 28.8562 23.5228 33.3333 18 33.3333H10C4.47715 33.3333 0 28.8562 0 23.3333V8H6.67378ZM18.6541 8H10.0127C10.0043 7.88999 10 7.77883 10 7.66667C10 5.27344 11.9401 3.33334 14.3334 3.33334C16.7266 3.33334 18.6667 5.27344 18.6667 7.66667C18.6667 7.77883 18.6624 7.88999 18.6541 8Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Content Middle -->
+      <div class="content-middle">
+        <!-- Upcoming Slide -->
+        <div class="upcoming-slide">
+          <div class="upcoming-slide-img">
+            <img src="/images/main-shoe.png" alt="" />
+          </div>
+
+          <div class="product-title">SEAN BLACK V2</div>
+        </div>
+
+        <!-- Main Slide -->
+        <div class="main-slide">
+          <img src="/images/main-img.png" alt="" />
+        </div>
+
+        <!-- Slide Counter -->
+        <div class="slide-counter">
+          <div class="slide-number current-slide-number">01</div>
+
+          <div class="slide-bar"></div>
+
+          <div class="slide-number current-slide-number">07</div>
+        </div>
+      </div>
+
+      <!-- Content Bottom -->
+      <div class="content-bottom">
+        <div class="desc">
+          <h3 class="section-title">Sean Black</h3>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porta ut at
+            aliquet egestas amet tempus dolor leo. Felis pharetra, in mauris
+            purus rhoncus ut bibendum.
+          </p>
+        </div>
+
+        <!-- Call to actions -->
+        <div class="cta">
+          <a href="#" class="btn btn-dark">
+            <span>
+              <img src="./images/btn-arrow-left-light.png" alt="" />
+            </span>
+
+            <span class="span-text">JOIN US</span>
+
+            <span>
+              <img src="./images/btn-arrow-right-light.png" alt="" />
+            </span>
+          </a>
+
+          <a href="#" class="btn btn-light">
+            <span>
+              <img src="./images/btn-arrow-left-light.png" alt="" />
+            </span>
+
+            <span class="span-text">SHOP NOW</span>
+
+            <span>
+              <img src="./images/btn-arrow-right-light.png" alt="" />
+            </span>
+          </a>
+        </div>
+
+        <!-- Arrows -->
+        <div class="arrows">
+          <button class="arrow prev">
+            <img src="./images/arrow-circle.png" alt="" />
+          </button>
+
+          <button class="arrow next active">
+            <img src="./images/arrow-circle-active.png" alt="" />
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+      integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
